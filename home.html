@@ -1,0 +1,14 @@
+   
+<div class="row small-up-3 medium-up-6">
+	<h1> <img class="logo" src="wp.jpg"/></h1>
+	<div ng-repeat="view in [{name:'Home', icon:'home'}, {name:'Philip-blog',icon:'heart'},{name:'Wilson-blog',icon:'heart'}, {name:'Pictures',icon:'heart'}, {name:'Projects',icon:'heart'}]" class="column">
+		<button class="button large">{{view.name}} <i class="fi-{{view.icon}}"></i>   
+		</button>
+	</div>
+</div>
+
+<div class="row small-up-2 medium-up-3">
+	<div ng-repeat="size in ['350x150', '350x250','350x200']" class="column">
+		 <img class="thumbnail" src="http://placehold.it/{{size}}" ></img> 
+	</div>
+</div>
