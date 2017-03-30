@@ -1,4 +1,9 @@
-.logo{
-	height:10%;
-	width: 20%;
+
+/*
+CSS FOR HEADER.HTML
+*/
+#headerbutton{
+	background-color:#082e7c;
+	width:70%;
+	margin-top: 10%;
 }
